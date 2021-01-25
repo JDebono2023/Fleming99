@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Jenn's Simple Map</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc&callback=initMap&libraries=&v=weekly"
-      defer
+    <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc&libraries=places&callback=initMap&libraries=&v=weekly"
+      
     ></script>
+    
 	
     <style type="text/css">
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 100%;
+        height: 500px;
+        width: 750px;
       }
 
       /* Optional: Makes the sample page fill the window. */
@@ -29,13 +31,14 @@
 
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 51.17896941504006, lng: -1.8261989083505485 },
-          zoom: 20,
+          center: { lat: 57.235, lng: -2.905 },
+          zoom: 15,
         });
-      }
-    </script>
+        }
+            </script>
   </head>
   <body>
     <div id="map"></div>
+    <div id="map2"></div>
   </body>
-</html>
+</html> 
