@@ -8,7 +8,7 @@ https://jenniferdebono.github.io/Fleming99/W1/SharkMap/sharkMap.htm
 * Includes basic css 
 
 
-###Google Maps Platform: Maps, Routes & Places###
+### Google Maps Platform: Maps, Routes & Places
 
 1. JavaScript API (HTML Interactive Map)
 
