@@ -1,14 +1,20 @@
 # Fleming99
 Coursework for Web GIS Development Weeks 1 &2
 
-Shark Spotting Map
+***Shark Spotting Map***
 https://jenniferdebono.github.io/Fleming99/W1/SharkMap/sharkMap.htm
 
-JavaScript: Hello World
+Includes basic css 
+
+
+
+***JavaScript: Hello World***
 https://jenniferdebono.github.io/Fleming99/W1/HelloWorld.htm
 
+Location set to Kildrummy Castle, Scotland
 
-JavaScript: Directions
+
+***JavaScript: Directions***
 V1: with class issued API
 https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=AIzaSyA5a1FoKmbmQ1djPh6pRx7oiknBf3ACNOE
 
@@ -29,3 +35,18 @@ display the directions information as expected
 
 Results Documented at: 
 https://jenniferdebono.github.io/Fleming99/W1/apiDirections.json
+
+
+***JSON: Places***
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name,rating,formatted_phone_number&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc
+
+Result:
+{
+   "html_attributions" : [],
+   "result" : {
+      "formatted_phone_number" : "(02) 9374 4000",
+      "name" : "Google Workplace 6",
+      "rating" : 4.1
+   },
+   "status" : "OK"
+}
