@@ -34,11 +34,11 @@ https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destinati
 https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc
 
 - Results:
-{
-   "error_message" : "This API project is not authorized to use this API.",
-   "routes" : [],
-   "status" : "REQUEST_DENIED"
-}
+   {
+      "error_message" : "This API project is not authorized to use this API.",
+      "routes" : [],
+      "status" : "REQUEST_DENIED"
+   }
 
 - Returned to the Google Maps Platform console and enabled Directions API. Refreshed the V2 URL with the personal API key, and enableing allowed the URL to call and
 display the directions information as expected
@@ -53,12 +53,12 @@ https://jenniferdebono.github.io/Fleming99/W1/apiDirections.json
 https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name,rating,formatted_phone_number&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc
 
 - Result:
-{
-   "html_attributions" : [],
-   "result" : {
-      "formatted_phone_number" : "(02) 9374 4000",
-      "name" : "Google Workplace 6",
-      "rating" : 4.1
-   },
-   "status" : "OK"
-}
+   {
+      "html_attributions" : [],
+      "result" : {
+         "formatted_phone_number" : "(02) 9374 4000",
+         "name" : "Google Workplace 6",
+         "rating" : 4.1
+      },
+      "status" : "OK"
+   }
