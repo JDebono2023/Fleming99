@@ -8,16 +8,20 @@ https://jenniferdebono.github.io/Fleming99/W1/SharkMap/sharkMap.htm
 * Includes basic css 
 
 
+
+
 ### Google Maps Platform: Maps, Routes & Places
 
-1. JavaScript API (HTML Interactive Map)
+#### 1. JavaScript API (HTML Interactive Map)
 
 https://jenniferdebono.github.io/Fleming99/W1/HelloWorld.htm
 
 * Location set to Kildrummy Castle, Scotland
 
 
-2. Directions API (JSON Return)
+
+
+#### 2. Directions API (JSON Return)
 
 * V1: with class issued API
 
@@ -43,7 +47,9 @@ display the directions information as expected
 https://jenniferdebono.github.io/Fleming99/W1/apiDirections.json
 
 
-### 3. Places API (JSON Return)
+
+
+#### 3. Places API (JSON Return)
 https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name,rating,formatted_phone_number&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc
 
 - Result:
