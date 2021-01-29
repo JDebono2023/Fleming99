@@ -368,7 +368,7 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJN1t_tDeuEms
 
 ##### Result:
 ```json
-   {\
+   {
       "html_attributions" : [],
       "result" : {
          "formatted_phone_number" : "(02) 9374 4000",
