@@ -2,8 +2,49 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="sharkCSS.css">
+<style>
+	body {
+  background-color: rgb(127, 169, 231);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.header {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  text-align: center;
+  background-color: whitesmoke;
+  }
+
+.column {
+  float: left;
+  width: 50%;
+  }
+
+/* map styling */
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  }
+
+.description {
+  margin: 20px
+  }
+
+.image {
+  height: 360px;
+  }
+
+media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+</style>
 </head>
+
 <body>
 
 
@@ -11,6 +52,18 @@
 <div class="header">
   <h1>Hiking In Algonquin</h1>
   <h5>Interpretive Day Trails for All Levels</h5>
+  <div class="map">
+	<iframe width="400" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_21BPMh51kwR62D0aOu7bUM&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+	
+</div>	
+  <div class="description">
+	<p>The Highway 60 Corridor that cuts through the southern section of Algonquin Provincial Park boasts 14 
+		different interpretive day use hiking trails. Each trail showcases unique landscapes, ecology, wildlife, 
+		and history. These unique features are illustrated in companion trail guides which are read in conjunction 
+		with interpretive trail markers on each trail. Each of these trails along the corridor are outlined here, 
+		with trail name, location along the highway corridor starting from the Park’s West Gate and moving towards 
+		the East Gate, length of trail, estimated duration to hike and challenge level.</p>
+</div>
 </div>
 
 <div class="row">
@@ -18,20 +71,14 @@
 		<div class="map">
 	
 			<iframe src="https://www.google.com/maps/d/embed?mid=1G_Il_RxhZ3IJWVwkHAOZ8hfoAYqdrgHk" width="640" height="480"></iframe>
-		
+			
 		</div>
 	</div>
 	
 	<div class="column">
-		<div class="description">
-				<p>The Highway 60 Corridor that cuts through the southern section of Algonquin Provincial Park boasts 14 
-					different interpretive day use hiking trails. Each trail showcases unique landscapes, ecology, wildlife, 
-					and history. These unique features are illustrated in companion trail guides which are read in conjunction 
-					with interpretive trail markers on each trail. Each of these trails along the corridor are outlined here, 
-					with trail name, location along the highway corridor starting from the Park’s West Gate and moving towards 
-					the East Gate, length of trail, estimated duration to hike and challenge level.</p>
-		</div>
-		
+		<div class="map">
+		<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=8&center=45.8372%2C-78.3791&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+	</div>
 	</div>
   </div>
   
