@@ -16,9 +16,19 @@
 		background-color: whitesmoke;
 		}
 
-		.column {
+		.column1 {
 		float: left;
-		width: 50%;
+		width: 33%;
+		border: 10px;
+		border-color: black;
+		}
+		.column2 {
+		float: left;
+		width: 33%;
+		}
+		.column3 {
+		float: left;
+		width: 33.33%;
 		}
 
 		/* map styling */
@@ -43,7 +53,7 @@
 	<body>
 		<div class="header">
 			<h1>Hiking In Algonquin</h1>
-			<h5>Interpretive Day Trails for All Levels</h5>
+			<h3>Interpretive Day Trails for All Levels</h3>
 				<div class="description">
 					<p>The Highway 60 Corridor that cuts through the southern section of Algonquin Provincial Park boasts 14 
 						different interpretive day use hiking trails. Each trail showcases unique landscapes, ecology, wildlife, 
@@ -54,17 +64,22 @@
 				</div>
 		</div>
 
-		<div class="row">
-			<div class="column">
+		
+			<div class="column1">
 				<div class="map">
-				<iframe src="https://www.google.com/maps/d/embed?mid=1G_Il_RxhZ3IJWVwkHAOZ8hfoAYqdrgHk" width="640" height="480" frameborder="5" style="border:0"></iframe>
+				<iframe src="https://www.google.com/maps/d/embed?mid=1G_Il_RxhZ3IJWVwkHAOZ8hfoAYqdrgHk" width="500" height="480" frameborder="5" style="border:0"></iframe>
 				</div>
 			</div>
-			<div class="column">
+			<div class="column2">
 				<div class="map">
 				<iframe width="400" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=8&center=45.8372%2C-78.3791&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
 				</div>
 			</div>
-		</div>
+			<div class="column3">
+				<div class="map">
+				<iframe width="800" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJNS-NyHrU1UwRlSX7GGNpC1I&destination=place_id:ChIJwW_FIxvu1UwRdrNgNsvv8SE&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+				</div>
+			</div>
+		
 	</body>
 </html>
