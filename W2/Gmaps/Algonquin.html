@@ -26,7 +26,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: 10px;
+		margin-top: 30px;
 		}
 
 		.description {
@@ -39,24 +39,32 @@
 		margin: 5px;
 		}
 
-		media screen and (max-width: 600px) {
-		.column {
-		width: 100%;
-		}
 		.row:after {
   		content: "";
   		display: table;
   		clear: both;
 		}
-		/* footer: re: https://www.w3schools.com/css/css_templates.asp */
+		/* footer: re: https://www.w3schools.com/css/css_templates.asp*/ 
 		.footer {
-  		background-color: whitesmoke;
-  		padding: 10px;
+        position: absolute;               
+        bottom: 0;
+        width: 99%;
+		height: 60px;
+		text-align: center;
+		background-color: whitesmoke;
+		font-size: 12px;
+		}   
+
+		media screen and (max-width: 600px) {
+		.column {
+		width: 100%;
 		}
+		
 		</style>
 	</head>
 
 	<body>
+		
 		<div class="header">
 			<h1>Hiking In Algonquin</h1>
 			<h3>Interpretive Day Trails for All Levels</h3>
@@ -68,39 +76,44 @@
 						with trail name, location along the highway corridor starting from the Park’s West Gate and moving towards 
 						the East Gate, length of trail, estimated duration to hike and challenge level.</p>
 				</div>
+			
 		</div>
-
-		
-			<div class="column1">
-				<div class="map">
-					<iframe src="https://www.google.com/maps/d/embed?mid=1G_Il_RxhZ3IJWVwkHAOZ8hfoAYqdrgHk" width="500" height="400" frameborder="5" style="border:0"></iframe>
-				</div>
-				<div class="mtext">
-					<p>The 14 interpretive day trails available in the park are varied in difficulty and take the intrepid hiker on a journey
-						through the parks diverse lanscapes, topography and history.</p>
-				</div>
-			</div>
-			<div class="column2">
-				<div class="map">
-					<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=8&center=45.8372%2C-78.3791&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
-				</div>
-				<div class="mtext">
-					<p>Algonquin Provincial Park is located in central Ontario and primary access is via Highway 60.</p>
-				</div>
-			</div>
-			<div class="column3">
-				<div class="map">
-					<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJNS-NyHrU1UwRlSX7GGNpC1I&destination=place_id:ChIJwW_FIxvu1UwRdrNgNsvv8SE&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
-				</div>
-				<div class="mtext">
-					<p>Travel time from the East Gate of the Park to the West Gate, is approximately 41 minutes. Each day trail is located at a 
-					noted kilometer marker (See trail mapping for exact lcations).</p>
-				</div>
-			</div>
-			<div class="row">
-			</div>
-			<footer>
-				<p>my footer is missing</p>
-			</footer>
+		<div class="column1">
+					<div class="map">
+						<iframe src="https://www.google.com/maps/d/embed?mid=1G_Il_RxhZ3IJWVwkHAOZ8hfoAYqdrgHk" width="500" height="400" frameborder="5" style="border:0"></iframe>
+					</div>
+					<div class="mtext">
+						<p>The 14 interpretive day trails available in the park are varied in difficulty and take the intrepid hiker on a journey
+							through the parks diverse lanscapes, topography and history.</p>
+					</div>
+		</div>
+				
+		<div class="column2">
+					<div class="map">
+						<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=8&center=45.8372%2C-78.3791&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+					</div>
+					<div class="mtext">
+						<p>Algonquin Provincial Park is located in central Ontario and primary access is via Highway 60.</p>
+						
+					</div>
+					
+		</div>
+				
+		<div class="column3">
+					<div class="map">
+						<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJNS-NyHrU1UwRlSX7GGNpC1I&destination=place_id:ChIJwW_FIxvu1UwRdrNgNsvv8SE&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+					</div>
+					<div class="mtext">
+						<p>Travel time from the East Gate of the Park to the West Gate, is approximately 41 minutes. Each day trail is located at a 
+						noted kilometer marker (See trail mapping for exact lcations).</p>
+					</div>
+		</div>	
+						
+		<div class="footer">
+			<p>Jennifer Debono | GEOM 99 | Fleming College </p>
+			<p>2021</p>	
+		</div>
+			
 	</body>
+
 </html>
