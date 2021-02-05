@@ -3,7 +3,7 @@
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
-			body {
+		body {
 		background-color: rgb(202, 192, 176);
 		font-family: Arial, Helvetica, sans-serif;
 		}
@@ -16,22 +16,12 @@
 		background-color: whitesmoke;
 		}
 
-		.column1 {
-		float: left;
-		width: 33%;
-		border: 10px;
-		border-color: black;
-		}
-		.column2 {
+		.column1, .column2, .column3 {
 		float: left;
 		width: 33%;
 		}
-		.column3 {
-		float: left;
-		width: 33.33%;
-		}
-
-		/* map styling */
+		
+		/* map style template: https://www.w3schools.com/css/css_templates.asp*/
 		.map {
 		display: flex;
 		justify-content: center;
@@ -43,9 +33,25 @@
 		margin: 20px
 		}
 
+		.mtext {
+		text-align: center;
+		font-size: 12px;
+		margin: 5px;
+		}
+
 		media screen and (max-width: 600px) {
 		.column {
 		width: 100%;
+		}
+		.row:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+		}
+		/* footer: re: https://www.w3schools.com/css/css_templates.asp */
+		.footer {
+  		background-color: whitesmoke;
+  		padding: 10px;
 		}
 		</style>
 	</head>
@@ -67,19 +73,34 @@
 		
 			<div class="column1">
 				<div class="map">
-				<iframe src="https://www.google.com/maps/d/embed?mid=1G_Il_RxhZ3IJWVwkHAOZ8hfoAYqdrgHk" width="500" height="480" frameborder="5" style="border:0"></iframe>
+					<iframe src="https://www.google.com/maps/d/embed?mid=1G_Il_RxhZ3IJWVwkHAOZ8hfoAYqdrgHk" width="500" height="400" frameborder="5" style="border:0"></iframe>
+				</div>
+				<div class="mtext">
+					<p>The 14 interpretive day trails available in the park are varied in difficulty and take the intrepid hiker on a journey
+						through the parks diverse lanscapes, topography and history.</p>
 				</div>
 			</div>
 			<div class="column2">
 				<div class="map">
-				<iframe width="400" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=8&center=45.8372%2C-78.3791&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+					<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=8&center=45.8372%2C-78.3791&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+				</div>
+				<div class="mtext">
+					<p>Algonquin Provincial Park is located in central Ontario and primary access is via Highway 60.</p>
 				</div>
 			</div>
 			<div class="column3">
 				<div class="map">
-				<iframe width="800" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJNS-NyHrU1UwRlSX7GGNpC1I&destination=place_id:ChIJwW_FIxvu1UwRdrNgNsvv8SE&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+					<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJNS-NyHrU1UwRlSX7GGNpC1I&destination=place_id:ChIJwW_FIxvu1UwRdrNgNsvv8SE&key=AIzaSyBuYSt0c0U4mITHOit9WZGoJvhHecCt3Hc" allowfullscreen></iframe>
+				</div>
+				<div class="mtext">
+					<p>Travel time from the East Gate of the Park to the West Gate, is approximately 41 minutes. Each day trail is located at a 
+					noted kilometer marker (See trail mapping for exact lcations).</p>
 				</div>
 			</div>
-		
+			<div class="row">
+			</div>
+			<footer>
+				<p>my footer is missing</p>
+			</footer>
 	</body>
 </html>
