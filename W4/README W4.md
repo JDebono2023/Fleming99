@@ -10,7 +10,15 @@ REST URL
 * https://services3.arcgis.com/8F6kcYTKeKI2WrHM/arcgis/rest/services/treeindeitfication/FeatureServer
 * https://services3.arcgis.com/8F6kcYTKeKI2WrHM/arcgis/rest/services/treeindeitfication/FeatureServer/0
 
+### ArcGIS API for JavaScript Tutorials
 
+#### Tutorials Completed
+* https://jenniferdebono.github.io/Fleming99/W4/Tutorial1_DisplayMap.html
+* https://jenniferdebono.github.io/Fleming99/W4/Tutorial2_DisplayLocation.html
+* https://jenniferdebono.github.io/Fleming99/W4/Tutorial3_FindPlaces.html
 
-
+#### Modified Map
+* Completed merging techniques from Display Map and Find Places to select from a drop menu of geocoded locations
+  around Euston Park in London ON.  
+* https://jenniferdebono.github.io/Fleming99/W4/Modified_DisplayMap.html
 
