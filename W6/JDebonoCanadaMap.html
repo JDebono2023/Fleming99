@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>App of Canada</title>
+
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.18/"></script>
+
+    <script>
+        require([
+            "esri/config",
+            "esri/WebMap", 
+            "esri/views/MapView",
+            "esri/widgets/ScaleBar",
+            "esri/widgets/Legend"
+        
+        ], function (esriConfig, WebMap, MapView, ScaleBar, Legend) {
+  
+            esriConfig.apiKey = "AAPK05f581b6da274dc699ebb4670a84f179GieYBwJIDf4F7o95Mesi_KUyjsAs0ssj-Nlbq6z37F6whfn0_umi313QdEZ3d_Oh";
+
+            const webmap = new WebMap({
+                portalItem: {
+                id: "07abc8882e2c47068f1d66af3a678a21"
+
+                }
+            });
+
+            const view = new MapView({
+                container: "viewDiv", // Div element
+
+                map: webmap
+            });
+            
+            const scalebar = new ScaleBar({
+                view: view
+            });
+            view.ui.add(scalebar, "bottom-left");
+
+            const legend = new Legend ({
+                view: view
+            });
+            view.ui.add(legend, "top-right");
+                    
+                });
+      </script>
+
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>
