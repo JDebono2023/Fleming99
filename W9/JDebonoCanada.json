@@ -1,0 +1,804 @@
+{
+ "currentVersion": 10.81,
+ "cimVersion": "2.6.0",
+ "id": 0,
+ "name": "Canada",
+ "type": "Feature Layer",
+ "description": "",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkt": "PROJCS[\"PCS_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",6200000.0],PARAMETER[\"False_Northing\",3000000.0],PARAMETER[\"Central_Meridian\",-91.86666666666666],PARAMETER[\"Standard_Parallel_1\",49.0],PARAMETER[\"Standard_Parallel_2\",77.0],PARAMETER[\"Latitude_Of_Origin\",63.390675],UNIT[\"Meter\",1.0]]",
+  "xyTolerance": 0.001,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -28455800,
+  "falseY": -28572600,
+  "xyUnits": 1.2995226274881823E8,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "referenceScale": 0.0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "PRFNAME",
+   "defaultSymbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     130,
+     130,
+     130,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      110,
+      110,
+      110,
+      255
+     ],
+     "width": 0.7
+    }
+   },
+   "defaultLabel": "<all other values>",
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       141,
+       211,
+       199,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        141,
+        211,
+        199,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Alberta",
+     "label": "Alberta"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       255,
+       179,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        255,
+        255,
+        179,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Colombie-Britannique",
+     "label": "Colombie-Britannique"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       190,
+       186,
+       218,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        190,
+        186,
+        218,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Manitoba",
+     "label": "Manitoba"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       251,
+       128,
+       114,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        251,
+        128,
+        114,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Nouveau-Brunswick",
+     "label": "Nouveau-Brunswick"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       128,
+       177,
+       211,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        128,
+        177,
+        211,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Nouvelle-Écosse",
+     "label": "Nouvelle-Écosse"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       253,
+       180,
+       98,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        253,
+        180,
+        98,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Nunavut",
+     "label": "Nunavut"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       179,
+       222,
+       105,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        179,
+        222,
+        105,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Ontario",
+     "label": "Ontario"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       252,
+       205,
+       229,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        252,
+        205,
+        229,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Québec",
+     "label": "Québec"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       217,
+       217,
+       217,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        217,
+        217,
+        217,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Saskatchewan",
+     "label": "Saskatchewan"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       188,
+       128,
+       189,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        188,
+        128,
+        189,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Terre-Neuve-et-Labrador",
+     "label": "Terre-Neuve-et-Labrador"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       204,
+       235,
+       197,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        204,
+        235,
+        197,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Territoires du Nord-Ouest",
+     "label": "Territoires du Nord-Ouest"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       237,
+       111,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        255,
+        237,
+        111,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Yukon",
+     "label": "Yukon"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       141,
+       211,
+       199,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        141,
+        211,
+        199,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Île-du-Prince-Édouard",
+     "label": "Île-du-Prince-Édouard"
+    }
+   ],
+   "fieldDelimiter": ",",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        142,
+        212,
+        200,
+        255
+       ],
+       "toColor": [
+        142,
+        212,
+        200,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        255,
+        179,
+        255
+       ],
+       "toColor": [
+        255,
+        255,
+        179,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        189,
+        184,
+        217,
+        255
+       ],
+       "toColor": [
+        189,
+        184,
+        217,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        250,
+        126,
+        112,
+        255
+       ],
+       "toColor": [
+        250,
+        126,
+        112,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        129,
+        177,
+        212,
+        255
+       ],
+       "toColor": [
+        129,
+        177,
+        212,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        181,
+        98,
+        255
+       ],
+       "toColor": [
+        252,
+        181,
+        98,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        222,
+        104,
+        255
+       ],
+       "toColor": [
+        179,
+        222,
+        104,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        204,
+        229,
+        255
+       ],
+       "toColor": [
+        252,
+        204,
+        229,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        217,
+        217,
+        217,
+        255
+       ],
+       "toColor": [
+        217,
+        217,
+        217,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        188,
+        128,
+        189,
+        255
+       ],
+       "toColor": [
+        188,
+        128,
+        189,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        204,
+        235,
+        197,
+        255
+       ],
+       "toColor": [
+        204,
+        235,
+        197,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        238,
+        112,
+        255
+       ],
+       "toColor": [
+        255,
+        238,
+        112,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": [
+   {
+    "labelExpressionInfo": {"expression": "$feature.PRENAME"},
+    "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+    "multiPart": "labelLargest",
+    "allowOverrun": true,
+    "deconflictionStrategy": "static",
+    "repeatLabel": false,
+    "stackLabel": true,
+    "stackRowLength": 24,
+    "stackAlignment": "dynamic",
+    "removeDuplicates": "none",
+    "useCodedValues": true,
+    "maxScale": 0,
+    "minScale": 0,
+    "name": "Class 1",
+    "priority": -1,
+    "symbol": {
+     "type": "esriTS",
+     "color": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "backgroundColor": null,
+     "borderLineColor": null,
+     "borderLineSize": null,
+     "verticalAlignment": "bottom",
+     "horizontalAlignment": "left",
+     "rightToLeft": false,
+     "angle": 0,
+     "xoffset": 0,
+     "yoffset": 0,
+     "kerning": true,
+     "haloColor": null,
+     "haloSize": null,
+     "font": {
+      "family": "Arial",
+      "size": 10,
+      "style": "normal",
+      "weight": "normal",
+      "decoration": "none"
+     }
+    }
+   }
+  ]
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": 3689439.0113999993,
+  "ymin": 659338.8599999994,
+  "xmax": 9015736.631399997,
+  "ymax": 5242088.937100001,
+  "spatialReference": {
+   "wkt": "PROJCS[\"PCS_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",6200000.0],PARAMETER[\"False_Northing\",3000000.0],PARAMETER[\"Central_Meridian\",-91.86666666666666],PARAMETER[\"Standard_Parallel_1\",49.0],PARAMETER[\"Standard_Parallel_2\",77.0],PARAMETER[\"Latitude_Of_Origin\",63.390675],UNIT[\"Meter\",1.0]]",
+   "xyTolerance": 0.001,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -28455800,
+   "falseY": -28572600,
+   "xyUnits": 10000,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "PRNAME",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "FID",
+   "type": "esriFieldTypeOID",
+   "alias": "FID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "PRUID",
+   "type": "esriFieldTypeString",
+   "alias": "PRUID",
+   "length": 2,
+   "domain": null
+  },
+  {
+   "name": "PRNAME",
+   "type": "esriFieldTypeString",
+   "alias": "PRNAME",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "PRENAME",
+   "type": "esriFieldTypeString",
+   "alias": "PRENAME",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "PRFNAME",
+   "type": "esriFieldTypeString",
+   "alias": "PRFNAME",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "PREABBR",
+   "type": "esriFieldTypeString",
+   "alias": "PREABBR",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "PRFABBR",
+   "type": "esriFieldTypeString",
+   "alias": "PRFABBR",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "InPoly_FID",
+   "type": "esriFieldTypeInteger",
+   "alias": "InPoly_FID",
+   "domain": null
+  },
+  {
+   "name": "SimPgnFlag",
+   "type": "esriFieldTypeInteger",
+   "alias": "SimPgnFlag",
+   "domain": null
+  },
+  {
+   "name": "MaxSimpTol",
+   "type": "esriFieldTypeDouble",
+   "alias": "MaxSimpTol",
+   "domain": null
+  },
+  {
+   "name": "MinSimpTol",
+   "type": "esriFieldTypeDouble",
+   "alias": "MinSimpTol",
+   "domain": null
+  },
+  {
+   "name": "Shape_STAr",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_STAr",
+   "domain": null
+  },
+  {
+   "name": "Shape_STLe",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_STLe",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": true,
+ "capabilities": "Query,Map,Data",
+ "maxRecordCount": 2000,
+ "supportsStatistics": false,
+ "supportsExceedsLimitStatistics": false,
+ "supportsAdvancedQueries": false,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": false,
+  "supportsPercentileStatistics": false,
+  "supportsHavingClause": false,
+  "supportsOrderBy": false,
+  "supportsDistinct": false,
+  "supportsCountDistinct": false,
+  "supportsPagination": false,
+  "supportsTrueCurve": true,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": false
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null,
+ "hasMetadata": true,
+ "isDataArchived": false,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": false,
+  "startArchivingMoment": -1
+ },
+ "supportsCoordinatesQuantization": true,
+ "supportsDynamicLegends": true
+}
